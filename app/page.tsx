@@ -15,7 +15,7 @@ export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
 
   return (
-    <div className="min-h-screen bg-[#F0F2F5]">
+    <div className="min-h-[200vh] bg-[#F0F2F5]">
       <header className="sticky top-0 z-10 bg-contained shadow-sm">
         <div className="max-w-5xl mx-auto flex items-center justify-between px-6 py-3">
           <Image src="/uchile/uchile-logo.svg" alt="Universidad de Chile" width={150} height={50} />
